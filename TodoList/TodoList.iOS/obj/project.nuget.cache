@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "6lvQBgjTMLBtb0dINxV7yyWHvBQSnNkFwejYfbwri88lkoTpkpxlfSr62XDvzm+QG2e9z9rnFqoV19+SQpwtig==",
+  "success": true,
+  "projectFilePath": "/Users/autorave/RiderProjects/TodoList/TodoList/TodoList.iOS/TodoList.iOS.csproj",
+  "expectedPackageFiles": [
+    "/Users/autorave/.nuget/packages/fody/6.3.0/fody.6.3.0.nupkg.sha512",
+    "/Users/autorave/.nuget/packages/propertychanged.fody/3.3.1/propertychanged.fody.3.3.1.nupkg.sha512",
+    "/Users/autorave/.nuget/packages/sqlite-net-pcl/1.7.335/sqlite-net-pcl.1.7.335.nupkg.sha512",
+    "/Users/autorave/.nuget/packages/sqlitepclraw.bundle_green/2.0.3/sqlitepclraw.bundle_green.2.0.3.nupkg.sha512",
+    "/Users/autorave/.nuget/packages/sqlitepclraw.core/2.0.3/sqlitepclraw.core.2.0.3.nupkg.sha512",
+    "/Users/autorave/.nuget/packages/sqlitepclraw.provider.dynamic_cdecl/2.0.3/sqlitepclraw.provider.dynamic_cdecl.2.0.3.nupkg.sha512",
+    "/Users/autorave/.nuget/packages/system.buffers/4.4.0/system.buffers.4.4.0.nupkg.sha512",
+    "/Users/autorave/.nuget/packages/system.memory/4.5.3/system.memory.4.5.3.nupkg.sha512",
+    "/Users/autorave/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
+    "/Users/autorave/.nuget/packages/system.runtime.compilerservices.unsafe/4.5.2/system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
+    "/Users/autorave/.nuget/packages/xamarin.essentials/1.6.0-pre3/xamarin.essentials.1.6.0-pre3.nupkg.sha512",
+    "/Users/autorave/.nuget/packages/xamarin.forms/4.4.0.991640/xamarin.forms.4.4.0.991640.nupkg.sha512"
+  ],
+  "logs": []
+}

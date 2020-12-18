@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewModels="clr-namespace:TodoList.ViewModels;assembly=TodoList"
+             xmlns:converters="clr-namespace:TodoList.Converters;assembly=TodoList"
+             x:Class="TodoList.Views.TodoListPage"
+             xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core" 
+             ios:Page.UseSafeArea="true">
+    <ContentPage.Resources>
+        <converters:StatusToTextColor x:Key="StatusToTextColor"/>
+        <converters:TodoActionTitleConverter x:Key="TodoActionTitleConverter"/>
+        <converters:StatusToSymbol x:Key="StatusToSymbol"/>
+    </ContentPage.Resources>
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Email" Order="Primary" Priority="0" Command="{Binding SendEmail}" />
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical" VerticalOptions="Center">
+            <ListView ItemsSource="{Binding TodoList}" x:Name="TodoListView">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <TextCell Text="{Binding Title}" 
+                                  TextColor="{Binding IsDone, Converter={StaticResource StatusToTextColor}}" 
+                                  Detail="{Binding IsDone, Converter={StaticResource StatusToSymbol}}">
+                            <TextCell.ContextActions>
+                                <MenuItem Command="{Binding Source={x:Reference TodoListView}, Path=BindingContext.ChangeIsDone}"
+                                          CommandParameter="{Binding .}" Text="{Binding IsDone, Converter={StaticResource TodoActionTitleConverter}}"/>
+                                <MenuItem Command="{Binding Source={x:Reference TodoListView}, Path=BindingContext.Delete}"
+                                          CommandParameter="{Binding .}" Text="Delete" IsDestructive="True"/>
+                            </TextCell.ContextActions>
+                        </TextCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <Button Command="{Binding AddTodo}" Text="You should do something..."></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

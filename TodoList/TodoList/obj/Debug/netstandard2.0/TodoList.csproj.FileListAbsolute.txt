@@ -1,0 +1,15 @@
+/Users/autorave/RiderProjects/TodoList/TodoList/TodoList/bin/Debug/netstandard2.0/TodoList.deps.json
+/Users/autorave/RiderProjects/TodoList/TodoList/TodoList/bin/Debug/netstandard2.0/TodoList.dll
+/Users/autorave/RiderProjects/TodoList/TodoList/TodoList/bin/Debug/netstandard2.0/TodoList.pdb
+/Users/autorave/RiderProjects/TodoList/TodoList/TodoList/obj/Debug/netstandard2.0/TodoList.csprojAssemblyReference.cache
+/Users/autorave/RiderProjects/TodoList/TodoList/TodoList/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/autorave/RiderProjects/TodoList/TodoList/TodoList/obj/Debug/netstandard2.0/Views/MainPage.xaml.g.cs
+/Users/autorave/RiderProjects/TodoList/TodoList/TodoList/obj/Debug/netstandard2.0/Views/TodoListPage.xaml.g.cs
+/Users/autorave/RiderProjects/TodoList/TodoList/TodoList/obj/Debug/netstandard2.0/TodoList.AssemblyInfoInputs.cache
+/Users/autorave/RiderProjects/TodoList/TodoList/TodoList/obj/Debug/netstandard2.0/TodoList.AssemblyInfo.cs
+/Users/autorave/RiderProjects/TodoList/TodoList/TodoList/obj/Debug/netstandard2.0/TodoList.csproj.CoreCompileInputs.cache
+/Users/autorave/RiderProjects/TodoList/TodoList/TodoList/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/autorave/RiderProjects/TodoList/TodoList/TodoList/obj/Debug/netstandard2.0/TodoList.dll
+/Users/autorave/RiderProjects/TodoList/TodoList/TodoList/obj/Debug/netstandard2.0/TodoList.pdb
+/Users/autorave/RiderProjects/TodoList/TodoList/TodoList/obj/Debug/netstandard2.0/Views/AddTodoPage.xaml.g.cs
+/Users/autorave/RiderProjects/TodoList/TodoList/TodoList/obj/Debug/netstandard2.0/TodoList.csproj.Fody.CopyLocal.cache

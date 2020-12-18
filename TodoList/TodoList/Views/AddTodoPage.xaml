@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewModels="clr-namespace:TodoList.ViewModels;assembly=TodoList"
+             x:Class="TodoList.Views.AddTodoPage"
+             x:DataType="viewModels:AddTodoPageViewModel">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical" VerticalOptions="Center">
+            <Entry Placeholder="What do you want to do?" Text="{Binding TodoTitle}"/>
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                <Button Text="Cancel" Command="{Binding Cancel}"/>
+                <Button Text="Save" Command="{Binding Save}"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
